@@ -3,12 +3,19 @@
     background: #333333;
 }
 
-ul {
+.sideBar ul {
     list-style: none;
     padding: 0;
 }
 
-li {
+.sideBar a {
+    color: rgba(255, 255, 255, 0.87);
+}
+.sideBar a:hover {
+    color: rgba(255, 255, 255);
+}
+
+.sideBar li {
     width: 50px;
     height: 50px;
     margin: 10px 5px;

@@ -4,7 +4,7 @@
     background: #333333;
 }
 
-.iconList {
+.secondarySideBar .iconList {
     display: flex;
     list-style: none;
     padding: 0;
@@ -13,11 +13,24 @@
     justify-content: end;
 }
 
-h3 {
+.secondarySideBar h3 {
     margin-top: -8px;
 }
 
-.iconList li {
+.secondarySideBar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.secondarySideBar a {
+    color: rgba(255, 255, 255, 0.87);
+    text-align: left;
+}
+.secondarySideBar a:hover {
+    color: rgba(255, 255, 255);
+}
+
+.secondarySideBar .iconList li {
     width: 50px;
     height: 50px;
     margin: 10px 5px;

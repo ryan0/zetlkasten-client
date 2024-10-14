@@ -1,0 +1,7 @@
+
+.mainContent {
+    background: #3c3c3c;
+    flex-grow: 1;
+    text-align: left;
+    padding: 50px;
+}
