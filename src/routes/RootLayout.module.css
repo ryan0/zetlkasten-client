@@ -1,0 +1,9 @@
+.layout {
+    display: flex;
+    height: 100%;
+}
+
+.main-content {
+    background: #555555;
+    flex-grow: 1;
+}
